@@ -1,0 +1,35 @@
+# --- ENVIRONNEMENT PYTHON ---
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- FASTAPI + UVICORN ---
+*.log
+*.sqlite3
+instance/
+.env
+.env.local
+.env.dev
+.env.prod
+
+# --- SUPABASE ---
+.supabase/
+supabase/.temp/
+supabase/functions/.git/
+supabase/docker/
+supabase/.branches/
+
+# --- NODE/NPM (si frontend futur) ---
+node_modules/
+dist/
+build/
+
+# --- OS SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+
+# --- EDITORS ---
+.vscode/
+.idea/
